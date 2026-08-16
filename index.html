@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - N'MENA Kossi Christophe</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Background Elements -->
+    <div class="bg-grid"></div>
+    <div class="bg-gradient"></div>
+
+    <!-- Header / Navbar -->
+    <header class="navbar">
+        <div class="logo">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="url(#gradient)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <defs>
+                    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#3b82f6" />
+                        <stop offset="100%" stop-color="#8b5cf6" />
+                    </linearGradient>
+                </defs>
+                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+            </svg>
+            <span>N'MENA</span>
+        </div>
+        <nav class="nav-links">
+            <a href="#hero">Accueil</a>
+            <a href="#about">À Propos</a>
+            <a href="#experience">Expérience</a>
+            <a href="#contact" class="btn-primary btn-small">Contact</a>
+        </nav>
+        <button class="mobile-menu-btn" aria-label="Menu">
+            <i class="fas fa-bars"></i>
+        </button>
+    </header>
+
+    <!-- Mobile Navigation Menu -->
+    <div class="mobile-nav">
+        <a href="#hero" class="mobile-link">Accueil</a>
+        <a href="#about" class="mobile-link">À Propos</a>
+        <a href="#experience" class="mobile-link">Expérience</a>
+        <a href="#contact" class="mobile-link btn-primary text-center" style="color: white !important;">Contact</a>
+    </div>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero">
+            <div class="hero-container">
+                <div class="hero-badge animate-fade-in">
+                    <span class="pulse-dot"></span> Disponible pour de nouveaux projets
+                </div>
+                <h1 class="hero-title animate-slide-up">
+                    Créateur de Contenu & <br>
+                    <span class="gradient-text">Entrepreneur Web</span>
+                </h1>
+                <p class="hero-subtitle animate-slide-up delay-1">
+                    Je transforme des idées audacieuses en expériences numériques engageantes. Spécialisé dans la création de contenu percutant et les stratégies d'innovation web.
+                </p>
+                <div class="hero-cta animate-slide-up delay-2">
+                    <a href="#contact" class="btn-primary btn-large">
+                        Démarrer une collaboration <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#experience" class="btn-secondary btn-large">
+                        Découvrir mon parcours
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Marquee / Scrolling Skills -->
+        <section class="skills-marquee-section">
+            <div class="marquee-container">
+                <div class="marquee-content">
+                    <!-- Original -->
+                    <div class="marquee-item"><i class="fas fa-bullhorn"></i> Création de Contenu</div>
+                    <div class="marquee-item"><i class="fas fa-rocket"></i> Entrepreneuriat Web</div>
+                    <div class="marquee-item"><i class="fas fa-robot"></i> Intelligence Artificielle</div>
+                    <div class="marquee-item"><i class="fas fa-chart-line"></i> Stratégie Digitale</div>
+                    <div class="marquee-item"><i class="fas fa-language"></i> Maîtrise du Français</div>
+                    <!-- Duplicated for infinite scroll -->
+                    <div class="marquee-item"><i class="fas fa-bullhorn"></i> Création de Contenu</div>
+                    <div class="marquee-item"><i class="fas fa-rocket"></i> Entrepreneuriat Web</div>
+                    <div class="marquee-item"><i class="fas fa-robot"></i> Intelligence Artificielle</div>
+                    <div class="marquee-item"><i class="fas fa-chart-line"></i> Stratégie Digitale</div>
+                    <div class="marquee-item"><i class="fas fa-language"></i> Maîtrise du Français</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section glass-card scroll-reveal">
+            <div class="about-grid">
+                <div class="about-text">
+                    <h2 class="section-title">À Propos de Moi</h2>
+                    <h3 class="about-name">N'MENA Kossi Christophe</h3>
+                    <p>Passionné par le numérique et l'innovation, j'ai fondé ma carrière sur l'intersection entre la technologie et la créativité. Je conçois des contenus qui captivent l'audience et déploie des stratégies web pour maximiser l'impact.</p>
+                    <p>Mon approche combine l'utilisation des derniers outils d'intelligence artificielle avec une maîtrise parfaite de la communication en français, assurant ainsi des résultats de haute qualité.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <span class="stat-number">2+</span>
+                        <span class="stat-label">Années d'expérience</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">Engagement</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="experience-section scroll-reveal">
+            <h2 class="section-title text-center">Parcours Professionnel</h2>
+            <div class="timeline">
+                <div class="timeline-item scroll-reveal delay-1">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card">
+                        <div class="timeline-header">
+                            <h3>Entrepreneur Web & Créateur de Contenu</h3>
+                            <span class="timeline-date">Depuis 2 ans</span>
+                        </div>
+                        <p>Direction et développement de projets web innovants. Élaboration de stratégies de contenu digital, optimisation de la visibilité en ligne et intégration des outils d'intelligence artificielle pour accroître la productivité.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer / Contact -->
+    <footer id="contact" class="footer scroll-reveal">
+        <div class="footer-container glass-card">
+            <h2 class="section-title text-center">Prêt à donner vie à vos projets ?</h2>
+            <p class="text-center footer-subtitle">Contactez-moi pour discuter de nos futures collaborations.</p>
+            
+            <div class="contact-methods">
+                <a href="mailto:christophenmenna711@gmail.com" class="contact-card">
+                    <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                    <h3>Email</h3>
+                    <p>christophenmenna711@gmail.com</p>
+                </a>
+                <a href="tel:+22891441692" class="contact-card">
+                    <div class="contact-icon"><i class="fas fa-phone-alt"></i></div>
+                    <h3>Téléphone</h3>
+                    <p>+228 91 44 16 92</p>
+                </a>
+            </div>
+        </div>
+        <div class="copyright">
+            &copy; 2026 N'MENA Kossi Christophe. Tous droits réservés.
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
